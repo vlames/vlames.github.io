@@ -1,0 +1,21 @@
+Journal
+
+Focus:
+* What worked
+* What did not work
+* What I had to install
+* Issues I ran into
+* How I fixed those issues
+* What can I do better now
+
+Links:
+Public repository: https://github.com/vlames/vlames.github.io
+Site: https://vlames.github.io
+
+
+Journal Entries:
+
+01/23/2020
+
+Today, I followed the GitHub video tutorial on how to setup repository for my portfolio. Setup worked well from the first time.
+
