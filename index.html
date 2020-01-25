@@ -1,27 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <title>Personal Portfolio</title>
+    <link href="css/3-portfolio.css" type="text/css" rel="stylesheet" />
   </head>
 
   <body>
+    <div class="home">
     <header>
-      <img src="https://via.placeholder.com/100x100?text=Logo" alt="" />
+      <h1 class="logo">My Portfolio</h1>
       <nav>
-        <table>
-          <tr>
-            <td><a href="about.html">About</a></td>
-            <td><a href="projects.html">Projects</a></td>
-            <td><a href="contact.html">Contact</a></td>
-          </tr>
-        </table>
+            <a href="about.html">About</a>
+            <a href="projects.h">Projects</a>
+            <a href="contacml">Contact</a>
       </nav>
     </header>
     <br />
-    <img
-      src="https://via.placeholder.com/300x300?text=Photo+of+me"alt=""/><br />
-    Vladimir Meshcheryakov
-    <section>
+    <img id="mainimage" src="images/image1.jpg"alt=""/><br />
+    </div>
+    <section class="contentpage" id="about">
       <h3>My Life</h3>
       <p>
         I was born in Bryansk, Russia. I have brothers and sisters who live in
@@ -49,7 +46,7 @@
         and strive to bring a positive change in society.
       </p>
     </section>
-    <section>
+    <section class="contentpage" id="projects">
       <h3>My Projects</h3>
       <ul>
         <li><a href="">Project 1</a></li>
@@ -57,7 +54,7 @@
         <li><a href="">Project 3</a></li>
       </ul>
     </section>
-    <section>
+    <section class="contentpage" id="contact">
         <h3>Contact Information</h3>
     </section>
     <footer>&copy; 2020 Vladimir Meshcheryakov</footer>
