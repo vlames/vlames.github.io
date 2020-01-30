@@ -19,3 +19,14 @@ Journal Entries:
 
 Today, I followed the GitHub video tutorial on how to setup repository for my portfolio. Setup worked well from the first time.
 
+01/24/2020
+
+Today, I applied some css rules to make my page look the way it does. At this point I was able to make it the way I wanted to. It looks better then the plain html, but my next goal would be to make it look even better on various devices.
+
+01/28/2020
+
+I read the layout section of the course html/css book to refresh and learn more on how to restructure my portfolio so it looks better on multiple devices. I learned how to use float and basics of the grid design. I separated portfolio into separate pages.
+
+01/30/2020
+
+Today, I will attempt to complete the design of my pages to look good on multiple screens like iphone, ipad, and laptop.
