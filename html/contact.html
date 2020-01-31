@@ -1,12 +1,39 @@
+<!-- The file contains the contact form -->
+
 <!DOCTYPE html>
 <html>
   <head>
     <title>Portfolio > Contact</title>
+    <link href="../css/portfolio-contact.css" type="text/css" rel="stylesheet" />
+    <link href="../css/portfolio-misc.css" type="text/css" rel="stylesheet" />
   </head>
   <body>
+    <nav>
+      <a href="../index.html">Home |</a>
+      <a href="about.html">About |</a>
+      <a href="projects.html">Projects |</a>
+      <a id="here" href="contact.html">Contact</a>
+    </nav>
     <section>
-      <h3>Contact Information</h3>
+      <h1>Contact Information</h1>
     </section>
+    <form action="" method="GET">
+      <fieldset>
+        <legend>Contact Form</legend>
+        <br />
+        <label for="namebox">Name</label>
+        <input type="text" id="namebox" name="name" /><br />
+        <label for="emailbox">Email</label>
+        <input type="email" id="emailbox" name="email" /><br />
+        <br />
+        <label for="commentbox">Question</label><br />
+        <textarea id="commentbox" name="comment" rows="9" cols="30"></textarea>
+        <br />
+        <br />
+        <input type="button" name="submit" value="Submit" />
+        <input type="button" name="reset" value="Reset" />
+      </fieldset>
+    </form>
     <footer>&copy; 2020 Vladimir Meshcheryakov</footer>
   </body>
 </html>
