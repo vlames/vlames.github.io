@@ -1,36 +1,37 @@
 /* This file stylizes the portfolio projects page */
 
 * {
-    margin: unset;
+  margin: unset;
 }
 
 h1 {
-    padding: 20px;
-    color: green;
+  padding: 20px;
+  color: green;
 }
 
+/* Defines general structure of the flex and its items */
 .projects-flex {
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 20px;
-    margin: 10px;
-    align-items: center;
-    border-bottom: 2px solid peru;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 20px;
+  margin: 10px;
+  align-items: center;
+  border-bottom: 2px solid peru;
 }
 
 .projects-flex > div > p {
-    padding: 20px;
-    font-size: 1.1em;
-    line-height: 2em;
+  padding: 20px;
+  font-size: 1.1em;
+  line-height: 2em;
 }
 
+/* Defines how the two fields inside the flex will behave */
 .image {
-    width: 150px;
-    height: 150px;
-    margin-right: 20px;
-    border-radius: 10px;
-
+  width: 150px;
+  height: 150px;
+  margin-right: 20px;
+  border-radius: 10px;
 }
 .description {
-    width: 550px;
+  width: 550px;
 }
