@@ -1,5 +1,7 @@
 Journal
 
+Vladimir Meshcheryakov
+
 Focus:
 * What worked
 * What did not work
@@ -15,18 +17,29 @@ Site: https://vlames.github.io
 
 Journal Entries:
 
+01/Before 23/2020
+
+I read the book about the html and css. I looked at what different tags mean and how to use them. I looked at various types of layouts available with today's html and css. 
+
 01/23/2020
 
-Today, I followed the GitHub video tutorial on how to setup repository for my portfolio. Setup worked well from the first time.
+Today, I followed the GitHub video tutorial on how to setup repository for my portfolio. Setup worked well from the first time. I thought if I could relocate the index.html file and if the website would still work, but ended up keeping it in the same spot.
 
 01/24/2020
 
-Today, I applied some css rules to make my page look the way it does. At this point I was able to make it the way I wanted to. It looks better then the plain html, but my next goal would be to make it look even better on various devices.
+Today, I applied some css rules to make my page look the way it does. At this point I was able to make it the way I wanted to. It looks better then the plain html, but my next goal would be to make it look even better on various devices. Most of the time I struggled with where to lay the contnt out, the looks itself. I struggled for a long time with navigation menu and specifically with how to make buttons span the same area as the logo. I still could no figure it out.
 
 01/28/2020
 
-I read the layout section of the course html/css book to refresh and learn more on how to restructure my portfolio so it looks better on multiple devices. I learned how to use float and basics of the grid design. I separated portfolio into separate pages.
+I read the layout section of the course html/css book to refresh and learn more on how to restructure my portfolio so it looks better on multiple devices. I learned how to use float and basics of the grid design. I separated portfolio into separate pages. I introduced multiple folders to organize file storage.
 
 01/30/2020
 
-Today, I will attempt to complete the design of my pages to look good on multiple screens like iphone, ipad, and laptop.
+Today, I will attempt to complete the design of my pages to look good on multiple screens like iphone, ipad, and laptop. I was able to use media queries to adjust a few of my pages to look better on smaller devices, but understand that the look can still be better. I struggled with cutting images out precisely so that they would be of the same size. Then, it took me a lot of time figuring out why there is space between images even though margins are unset. Online, someone suggested to use the float property, but that would not work with all the display properties. I unded up being able to use it.
+
+01/31/2020
+
+Today, I finished styling the rest of the pages. It took me some time to figure out the flex containers for the projects page to be one after another without unwanted movement around. It pretty much worked the way I wanted it to. After all the struggles with preceding pages, I was able to style the form page pretty quickly. I know that there is still work to do to make the website look better, but my basic goals are achieved. I reformatted all the files to look accordingly and on the final note will probably move a few of the old files around on git.
+
+Sources:
+https://www.hobo-web.co.uk/best-screen-size/
