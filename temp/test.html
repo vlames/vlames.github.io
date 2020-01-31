@@ -4,16 +4,28 @@
         <title></title>
         <style type="text/css">
         * {
-            border: 2px solid red;
+            border: 1px solid red;
             margin: unset;
         }
-        img {
-            float: left;
+        #flexible {
+            display: flex;
+            flex-wrap: wrap;
+            background-color: blue;
+        }
+        #flexible > section {
+            width: 360px;
+            height: 457px;
+            color: white;
+            padding: 5px;
         }
         </style>
     </head>
     <body>
-        <img src="images/main/center-top-left1.jpg">
-        <img src="images/main/center-top.jpg">
+        <div id="flexible">
+            <section>1</section>
+            <section>2</section>
+            <section>3</section>
+            <section>4</section>
+        </div>
     </body>
 </html>
