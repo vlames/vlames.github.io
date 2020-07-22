@@ -1,4 +1,7 @@
 /* Unsets some pre-set browser configurations */
+
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+
 * {
     margin: unset;
     padding: unset;
@@ -11,7 +14,7 @@ body {
     align-items: center;
     height: 100vh;
     background-color: lightgrey;
-  }
+}
 
 /* Defines the look of a footer */
 footer {
