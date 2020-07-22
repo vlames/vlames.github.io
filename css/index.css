@@ -113,8 +113,20 @@ div.top-images img, div.bottom-images img {
     border-radius: 0px;
   }
 }
+@media (max-width: 360px) {
+  div.top-images img, div.bottom-images img {
+    width: 100%;
+    height: auto;
+  }
+}
+
 @media (max-height: 1464px) {
   div.bottom-images {
     display: none;
+  }
+}
+@media (max-height: 799px) {
+  body {
+    height: 100%;
   }
 }
