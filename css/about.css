@@ -1,8 +1,5 @@
 /* This file stylizes the about page of the portfolio */
-
-* {
-  margin: unset;
-}
+@import url('general.css');
 
 /* Stylizes headings and the paragraph text */
 h1 {
@@ -28,14 +25,15 @@ img {
 }
 
 /* Stylizes the floating of content on screen change */
-.flexible {
+.content {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
 }
 
-.flexible > div {
+.content > div {
   width: 360px;
-  height: 500px;
+  height: 457px;
   padding: 20px;
-  border-bottom: 1px solid grey;
+  overflow: scroll;
 }
