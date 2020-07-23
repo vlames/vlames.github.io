@@ -1,71 +1,171 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Portfolio > Projects</title>
-    <link href="../css/portfolio-projects.css" type="text/css" rel="stylesheet" />
-    <link href="../css/portfolio-misc.css" type="text/css" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/projects.css" type="text/css" rel="stylesheet" />
   </head>
   <body>
-    <nav>
-      <a href="../index.html">Home |</a>
-      <a href="about.html">About |</a>
-      <a id="here" href="projects.html">Projects |</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-    <h1>My Projects</h1>
-    <div class="projects-flex">
-      <div class="image">
-        <img src="../images/other/icon.png" alt="quiz creator icon package" />
+    <div class="page">
+      <nav>
+        <a class ="main-page" href="../index.html">Vladimir</a>
+        <div class ="other-pages">
+          <a href="about.html">About</a>
+          <a href="projects.html">Projects</a>
+        </div>
+      </nav>
+      <div class="content">
+        <div class="projects-flex">
+          <div class="image">
+            <img src="../images/other/quiz-creator.png" alt="quiz creator terminal program menu" />
+          </div>
+          <div class="description">
+            <p>
+              This was one of the first, outside of class projects. One day a person
+              spoke to me. He recently arrived to US and was studying to become a
+              truck driver. He wanted to use an existing quiz software, add
+              questions to it and study. At that time I was at the beginning of my
+              programming education and figured it would be nearly impossible for me
+              to add questions to and existing software if I don't know how to code
+              on that level. I decided to create my own, simple application, which
+              turned out to be complex, but I enjoyed the thrill of developing it.
+              <input type="button" value="View Project" onclick="show_quizcreator()">
+            </p>
+          </div>
+        </div>
+        <div class="projects-flex">
+          <div class="image">
+            <img src="../images/other/icon.png" alt="quiz creator icon package" />
+          </div>
+          <div class="description">
+            <p>
+              I worked on the project many years ago. At that time I worked on the
+              quiz creator terminal application. I thought of descovering how the
+              pretty apple icons are made. I did a research and found steps to
+              follow and do just that. The most difficult part was to design the
+              icon itself. I used some graphical application (could have been
+              photoshop) to assemble different pre-made parts and add my touch.
+              Because the application was called the Quiz Creator, I thought it
+              would be a good idea to unite a few concepts involved in it: questions
+              that make up a quiz and building.
+            </p>
+          </div>
+        </div>
+        <div class="projects-flex">
+          <div class="image">
+            <img src="../images/other/subops.png" alt="subops terminal program menu" />
+          </div>
+          <div class="description">
+            <p>
+              SubOps is one of my recent projects. I wanted to learn how to wrie
+              subtitles and help out with translating spiritually important videos
+              to my native language. Writing subtitles is not a so easy task as one
+              might think. Besides content, it involves timing for each sibtitle
+              line. I ended up using the Audacity software to view audio waves in a
+              particular video. The problem was that the program has so called
+              labels which do give start and end time but formatted differently.
+              Because of that I wrote one of the features that would convert label
+              time format to SRT.
+              <input type="button" value="View Project" onclick="show_subops()">
+            </p>
+          </div>
+        </div>
+        <div class="projects-flex">
+          <div class="image">
+            <img src="../images/other/receiptcreator.png" alt="receipt creator terminal program" />
+          </div>
+          <div class="description">
+            <p>
+              Once upon a time, at one Seventh-Day-Adventist Church, I was tasked
+              to manage a mutual fund. One of the duties was to write out receipts
+              to a person who was enrolling or contributing to the fund. At that time,
+              the fund consisted of many people and writing out receipts by hand would
+              take lots of time. At one point I decided to try to write a simple program
+              that would both, give me more practice in writing computer programs and
+              help me save some time preparing receipts. I found a pdf library for the
+              Rust programming language, studied it, and with strength and wisdom from
+              the Holy Spirit, was able to accomplish my goal.
+              <input type="button" value="View Project" onclick="show_receiptcreator()">
+            </p>
+          </div>
+        </div>
+        <div class="projects-flex">
+          <div class="image">
+            <img src="../images/other/weatcomp.png" alt="weatcomp web application" />
+          </div>
+          <div class="description">
+            <p>
+              In the Full Stack Web Development course, as a student, I needed
+              to write a web application that would make an API call to some
+              server, receive data, and display it on the screen. I decided to
+              do a weather application. I called it WeatComp. It stands for
+              weather compare. Before a user would plan a short trip to nearby
+              cities, it would be a good idea to know what the weather is like
+              and prioritize activities accordingly. In my development journey
+              I studied and applied React for the frontend. Again, with enormous
+              help of the Holy Spirit, the task was accomplished.
+              <input type="button" value="View Project" onclick="show_weatcomp()">
+            </p>
+          </div>
+        </div>
+        <div class="projects-flex">
+          <div class="image">
+            <img src="../images/other/memoverse.png" alt="memoverse web application" />
+          </div>
+          <div class="description">
+            <p>
+              This project was done for the Web, Cloud, and Security course.
+              As the course was nearing its end, I was inspired to do a particular
+              application. Because faith comes from hearing and hearing comes from
+              the Word of God, christian life involves reading the Word of God, The Bible. 
+              Memorizing verses also helps to fortify faith. Thus I decided to follow
+              the inspiration and at the end came up with a simple application
+              that would help one memorize verses. Out of all my projects, this
+              one involves the most languages.
+              <input type="button" value="View Project" onclick="show_memoverse()">
+            </p>
+          </div>
+        </div>
+        <div class="projects-flex">
+          <div class="image">
+            <img src="../images/other/portlandintro.png" alt="portlandintro website" />
+          </div>
+          <div class="description">
+            <p>
+              Portland intro was a project developed for the Frontend Web
+              Technologies course. For the first time I was able to cooperate
+              very closely with a classmate on a course project. We learned
+              a lot about Git and the importance of meetings. The project
+              idea was to introduce a person to Portland and its surroundings.
+              It involved various API calls, a framework, and a backend to
+              achieve API keys hiding and solve CORS issues. As always, I
+              am thankful to my God for wisdom and help.
+              <input type="button" value="View Project" onclick="show_portlandintro()">
+            </p>
+          </div>
+        </div>
+        <div class="projects-flex">
+          <div class="image">
+            <img src="../images/other/riscv.png" alt="riscv continuous integration project" />
+          </div>
+          <div class="description">
+            <p>
+              The riscv continuous integration project was a Cap Stone project.
+              It involved a team of 8 people who worked together to automate
+              the process of testing a picolibc library for riscv instruction set
+              used in embedded devices. My contribution was a Docker file
+              that helped us build a portable environment to run the tests in.
+              This was my first serious dive into a containerized solution and I
+              was glad my God helped me contribute to the project.
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="description">
-        <p>
-          I worked on the project many years ago. At that time I worked on the
-          quiz creator terminal application. I thought of descovering how the
-          pretty apple icons are made. I did a research and found steps to
-          follow and do just that. The most difficult part was to design the
-          icon itself. I used some graphical application (could have been
-          photoshop) to assemble different pre-made parts and add my touch.
-          Because the application was called the Quiz Creator, I thought it
-          would be a good idea to unite a few concepts involved in it: questions
-          that make up a quiz and building.
-        </p>
-      </div>
+      <footer>
+        <p>&copy; 2020 Vladimir Meshcheryakov</p>
+      </footer>
     </div>
-    <div class="projects-flex">
-      <div class="image">
-        <img src="../images/other/quiz-creator.png" alt="quiz creator terminal program menu" />
-      </div>
-      <div class="description">
-        <p>
-          This was one of the first, outside of class projects. One day a person
-          spoke to me. He recently arrived to US and was studying to become a
-          truck driver. He wanted to use an existing quiz software, add
-          questions to it and study. At that time I was at the beginning of my
-          programming education and figured it would be nearly impossible for me
-          to add questions to and existing software if I don't know how to code
-          on that level. I decided to create my own, simple application, which
-          turned out to be complex, but I enjoyed the thrill of developing it.
-        </p>
-      </div>
-    </div>
-    <div class="projects-flex">
-      <div class="image">
-        <img src="../images/other/subops.png" alt="subops terminal program menu" />
-      </div>
-      <div class="description">
-        <p>
-          SubOps is one of my recent projects. I wanted to learn how to wrie
-          subtitles and help out with translating spiritually important videos
-          to my native language. Writing subtitles is not a so easy task as one
-          might think. Besides content, it involves timing for each sibtitle
-          line. I ended up using the Audacity software to view audio waves in a
-          particular video. The problem was that the program has so called
-          labels which do give start and end time but formatted differently.
-          Because of that I wrote one of the features that would convert label
-          time format to SRT.
-        </p>
-      </div>
-    </div>
-    <footer>&copy; 2020 Vladimir Meshcheryakov</footer>
+    <script src="../js/general.js"></script>
   </body>
 </html>
