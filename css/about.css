@@ -16,19 +16,32 @@ img {
   max-width: 360px;
   width: 100%;
   height: auto;
-  border-radius: 20px;
+  border-radius: 7px;
+  border: 2px solid rgb(255,255,255);
+
 }
+
 
 /* Stylizes the floating of content on screen change */
-.content {
+div.content {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
 }
 
-.content > div {
+div.content > div {
   max-width: 360px;
-  padding: 10px;
-  align-self: flex-start;
+  margin: 7px;
+  padding: 0px 7px;
+}
+
+@media (max-width: 1551px) {
+  div.content {
+    max-width: 1163px;
+    justify-content: center;
+  }
+}
+@media (max-width: 775px) {
+  img {
+    margin-top: 10px;
+  }
 }
