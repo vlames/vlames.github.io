@@ -49,6 +49,12 @@ div.image {
   height: 150px;
   margin: 15px 15px 15px 15px;
 }
+div.image > img {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+}
+
 div.description {
   max-width: 500px;
 }
