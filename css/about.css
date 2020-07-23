@@ -3,11 +3,11 @@
 
 h3 {
   color: green;
-  margin: 10px 0px 1em 0px;
+  margin: 7px 0px 1em 0px;
 }
 
 p {
-  line-height: 2em;
+  line-height: 1.5em;
   font-size: 1.1em;
 }
 
@@ -16,9 +16,6 @@ img {
   max-width: 360px;
   width: 100%;
   height: auto;
-  border-radius: 7px;
-  border: 2px solid rgb(255,255,255);
-
 }
 
 
@@ -31,17 +28,27 @@ div.content {
 div.content > div {
   max-width: 360px;
   margin: 7px;
-  padding: 0px 7px;
+  padding: 12px;
+  background-color: white;
+  border-radius: 7px;
 }
 
-@media (max-width: 1551px) {
+@media (max-width: 1591px) {
   div.content {
     max-width: 1163px;
     justify-content: center;
   }
+  nav,footer {
+    max-width: 800px;
+    margin: auto;
+  }
 }
-@media (max-width: 775px) {
+@media (max-width: 795px) {
   img {
     margin-top: 10px;
+  }
+  nav,footer {
+    max-width: 400px;
+    margin: auto;
   }
 }
