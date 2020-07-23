@@ -1,5 +1,7 @@
 /* This file stylizes the portfolio projects page */
 
+@import url('general.css');
+
 * {
   margin: unset;
 }
@@ -9,29 +11,53 @@ h1 {
   color: green;
 }
 
+img {
+  border-radius: 7px;
+}
+
+div.page {
+  max-width: 1420px;
+}
+
+div.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 /* Defines general structure of the flex and its items */
 .projects-flex {
   display: flex;
   flex-wrap: wrap;
-  padding-left: 20px;
-  margin: 10px;
+  padding: 7px;
+  margin: 7px;
   align-items: center;
   border-bottom: 2px solid peru;
+  border-radius: 7px;
+  background-color: rgb(255,255,255);
 }
 
-.projects-flex > div > p {
-  padding: 20px;
+div.projects-flex > div > p {
+  padding: 15px;
   font-size: 1.1em;
-  line-height: 2em;
+  line-height: 1.5em;
 }
 
 /* Defines how the two fields inside the flex will behave */
-.image {
+div.image {
   width: 150px;
   height: 150px;
-  margin-right: 20px;
-  border-radius: 10px;
+  margin: 15px 15px 15px 15px;
 }
-.description {
-  width: 550px;
+div.description {
+  max-width: 500px;
+}
+
+@media (max-width: 1419px) {
+  div.page {
+    max-width: 700px;
+  }
+  div.description {
+    max-width: 100%;
+  }
 }
