@@ -19,5 +19,5 @@ function show_memoverse() {
 }
 
 function show_portlandintro() {
-    window.open( "https://github.com/Sanlinlin/Frontend2020Spring", "_blank"); 
+    window.open( "https://intro-portland.herokuapp.com", "_blank"); 
 }
